@@ -1,17 +1,22 @@
-import { useState } from "react"
+/** @jsxImportSource @emotion/react */
+import { useState } from 'react';
 
-export default function Home() {
-    const [tasks, setTasks] = useState([
-      'Go to walk', 'Have breakfast'
-    ]);
+function MyPage() {
+  // Define state using the useState hook
+  const [count, setCount] = useState(0);
+
+  // Event handler to update the state
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
   return (
-    <main>
+    <div>
       <h1>Main Page</h1>
-      <ul>
-      {tasks.map((task)=> {
-        <li>task</li>
-      })}
-      </ul>
-    </main>
-  )
+      <p>Count: {count}</p>
+      <button onClick={handleIncrement}>Increment</button>
+    </div>
+  );
 }
+
+export default MyPage;
