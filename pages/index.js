@@ -22,7 +22,12 @@ const Home = () => {
     setTodos(newTodos);
   };
 
-
+  return (
+    <div>
+      <h1>Todo List</h1>
+      <TodoList todos={todos} onToggle={handleToggle} />
+    </div>
+  );
 };
 
 export default Home;
