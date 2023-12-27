@@ -16,6 +16,12 @@ const Home = () => {
     localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
 
+  const handleToggle = (index) => {
+    const newTodos = [...todos];
+    newTodos[index].completed = !newTodos[index].completed;
+    setTodos(newTodos);
+  };
+
 
 };
 
