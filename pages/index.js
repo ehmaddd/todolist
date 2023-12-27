@@ -1,7 +1,9 @@
-let Home = () => {
-    return (
-        <h1>Home Page</h1>
-    )
-}
+// pages/index.js
+import React, { useState, useEffect } from 'react';
+import TodoList from '../components/TodoList';
+
+const Home = () => {
+
+};
 
 export default Home;
