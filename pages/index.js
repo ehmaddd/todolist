@@ -1,6 +1,6 @@
 // pages/index.js
 import React, { useState, useEffect } from 'react';
-import TodoList from '../components/TodoList';
+// import TodoList from '../components/TodoList';
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div>
       <h1>Todo List</h1>
-      <TodoList todos={todos} onToggle={handleToggle} />
+      {/* <TodoList todos={todos} onToggle={handleToggle} /> */}
     </div>
   );
 };
