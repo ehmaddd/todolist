@@ -1,8 +1,8 @@
-const product1 = () => {
+const productDetails = () => {
     return (
-      <h2>Product 1</h2>
+      <h2>Product Details</h2>
     )
 }
 
-export default product1;
+export default productDetails;
 
