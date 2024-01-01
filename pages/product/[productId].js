@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 
 const productDetails = () => {
+  const router = useRouter();
     return (
       <h2>Product Details</h2>
     )
