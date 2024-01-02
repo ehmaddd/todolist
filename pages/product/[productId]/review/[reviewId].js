@@ -2,8 +2,7 @@ import { useRouter } from "next/router";
 
 const reviewDetail = () => {
   const router = useRouter();
-  const productId = router.query.productId;
-  const reviewId = router.query.reviewId;
+  const { productId, reviewId } = router.query;
 
   return (
     <h2>Product {productId} Review {reviewId}</h2>
