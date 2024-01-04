@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <h1>Todo List</h1>
       <Link href="/blog">
-        <a>Blog</a>
+        Blog
       </Link>
     </div>
   );
