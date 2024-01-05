@@ -10,6 +10,9 @@ const Home = () => {
       <Link href="/blog">
         Blog
       </Link>
+      <Link href="/product">
+        Product
+      </Link>
     </div>
   );
 };
