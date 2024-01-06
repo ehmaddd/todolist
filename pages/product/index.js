@@ -25,7 +25,7 @@ const product = ({ productId = 1000 }) => {
           </li>
           <li>
             <Link href={`/product/${productId}`}>
-              Product ${productId}
+              Product {productId}
             </Link>
           </li>
         </ul>
