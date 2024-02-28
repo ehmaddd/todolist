@@ -1,4 +1,3 @@
-// components/TodoList.js
 import Task from './Task';
 import styles from '../styles/TodoList.module.css';
 
