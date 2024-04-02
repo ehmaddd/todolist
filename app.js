@@ -6,3 +6,7 @@ app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/tasks', require('./routes/tasks'));
+
+app.listen(port, () => {
+
+});
