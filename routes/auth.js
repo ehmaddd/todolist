@@ -17,5 +17,7 @@ router.post('/register', async (req, res) => {
         const token = jwt.sign({ userId: newUser.rows[0].id }, 'your_secret_key');
         res.json({ token });
     } catch (error) {
+        console.error('Error registering user:', error);
+        res.status(500).json({ error: 'Internal server error' });
     }
 });
