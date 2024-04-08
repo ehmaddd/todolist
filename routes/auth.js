@@ -5,5 +5,9 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 router.post('/register', async (req, res) => {
-    
+    try {
+
+    } catch (error) {
+
+    }
 });
